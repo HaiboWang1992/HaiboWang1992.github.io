@@ -1,6 +1,6 @@
 ---
-layout: biography
-title: about
+layout: about
+title: biography
 permalink: /
 subtitle: <a href='#'>Concordia University</a>. haibo<DOT>wang<AT>mail<DOT>concordia<DOT>ca
 
