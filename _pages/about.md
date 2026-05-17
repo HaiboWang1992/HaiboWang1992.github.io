@@ -2,7 +2,8 @@
 layout: about
 title: biography
 permalink: /
-subtitle: <a href='#'>Concordia University</a>. haibo<DOT>wang<AT>mail<DOT>concordia<DOT>ca
+#subtitle: <a href='#'>Concordia University</a>. haibo.wang@mail.concordia.ca
+subtitle: haibo.wang@mail.concordia.ca
 
 profile:
   align: right
