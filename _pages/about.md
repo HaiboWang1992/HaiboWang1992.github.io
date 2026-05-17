@@ -1,8 +1,8 @@
 ---
-layout: about
-title: about
+layout: biography
+title: biography
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Concordia University</a>. haibo.wang@mail.concordia.ca
 
 profile:
   align: right
