@@ -9,12 +9,12 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +22,26 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Ph.D. candidate in Computer Science at Concordia University, Montréal, Canada, supervised by [Prof. Shin Hwei Tan](https://scholar.google.com/citations?user=1eFjFs8AAAAJ&hl=en). My research lies broadly in **software engineering**, with a focus on **automated software testing**, **software refactoring**, **AI for software engineering**, **green and sustainable software engineering**, and **human aspects of software engineering**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining Concordia University, I was part of the Joint Ph.D. Program between the Southern University of Science and Technology, China, and the University of Leeds, United Kingdom, under the supervision of [Prof. Shin Hwei Tan](https://scholar.google.com/citations?user=1eFjFs8AAAAJ&hl=en) and [Prof. Zheng Wang](https://scholar.google.com/citations?user=qJ7ZKG8AAAAJ&hl=en). I received my M.Sc. in Computer Technology from Beijing University of Posts and Telecommunications, China, and my B.Sc. in Software Engineering from China University of Petroleum, China.
+
+My research is driven by a central goal: **making software evolution reliable, trustworthy, and sustainable in an AI-assisted world**. Modern software is increasingly written, changed, tested, and maintained with the help of refactoring engines, program transformation tools, automated testing frameworks, and large language models. These tools can significantly improve developer productivity, but they also introduce new risks: refactoring engines may silently change program behavior, Code LLMs may generate incorrect or unsafe code, and AI-assisted development workflows may consume substantial computational resources at scale.
+
+To address these challenges, my work combines **empirical software engineering**, **program analysis**, **automated testing**, and **AI-based techniques**. I am particularly interested in studying how software tools fail, why they fail, and how we can build better methods to test, validate, and improve them.
+
+**Reliable software evolution and transformation.** One major line of my research studies the reliability of software transformation tools, especially refactoring engines. I investigate refactoring engine bugs in widely used IDEs such as Eclipse, IntelliJ IDEA, and NetBeans, and develop techniques for testing refactoring engines using historical bug reports and LLM-generated program variants. I am also interested in behavior-preserving program transformations, program simplification, refactoring precondition inference, and repository-scale refactoring support.
+
+**Trustworthy AI-enabled software development.** A second line of my research focuses on the reliability and safety of Code LLMs and AI-assisted development tools. I study how AI-generated code can be tested, audited, and validated beyond simple compilation or test passing. This includes harmfulness testing for Code LLMs, structured safety auditing of LLM-generated code, ethics testing for generative AI systems, and intent-centered validation of AI-generated software. My goal is to help developers better understand, trust, and responsibly accept AI-generated code.
+
+**Green and sustainable software engineering.** A third line of my research focuses on the energy impact of software systems and AI-assisted development workflows. I study how refactoring and semantically equivalent program transformations affect software energy consumption, and how LLM-based development tools can be designed to balance correctness, safety, developer productivity, and energy efficiency. More broadly, I am interested in building practical techniques for energy-aware software development and green AI for software engineering.
+
+My work has been published in top-tier software engineering and programming languages venues, including **FSE**, **ASE**, **PLDI**, and **TOSEM**. Beyond publications, my research has contributed to the open-source community by revealing bugs in widely used software tools and systems, including **Eclipse**, **IntelliJ IDEA**, **NetBeans**, **RefactoringMiner**, and JavaScript engines such as **Google V8**.
+
+More broadly, my long-term research goal is to build **practical, reliable, and sustainable software engineering techniques** that help developers build, evolve, and maintain high-quality software systems in the age of AI.
