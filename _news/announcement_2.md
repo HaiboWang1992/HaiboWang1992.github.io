@@ -53,12 +53,3 @@
 
 [//]: # ()
 [//]: # (Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.)
-
----
-layout: post
-date: 2025-01-15 12:00:00-0400
-inline: true
-related_posts: false
----
-
-One paper accepted at FORGE 2025.
