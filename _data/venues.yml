@@ -7,3 +7,9 @@
 
 "Vision":
   color: "#009f36"
+
+"PLDI 2021":
+  url: https://pldi21.sigplan.org/
+
+"NLBSE 2023":
+  url: https://nlbse2023.github.io/

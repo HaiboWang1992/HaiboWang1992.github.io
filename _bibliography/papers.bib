@@ -118,6 +118,7 @@
 author = {Ye, Guixin and Tang, Zhanyong and Tan, Shin Hwei and Huang, Songfang and Fang, Dingyi and Sun, Xiaoyang and Bian, Lizhong and Wang, Haibo and Wang, Zheng},
 title = {Automated conformance testing for JavaScript engines via deep compiler fuzzing},
 year = {2021},
+abbr = {PLDI 2021},
 isbn = {9781450383912},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
@@ -137,9 +138,107 @@ series = {PLDI 2021}
   booktitle={2023 IEEE/ACM 2nd International Workshop on Natural Language-Based Software Engineering (NLBSE)},
   title={Classifying Code Comments via Pre-trained Programming Language Model},
   year={2023},
+  abbr = {NLBSE 2023},
+  abstract={Previous studies have categorized code comments for various programming languages to produce high-quality code comments that can improve code readability and benefit maintenance. However, it still requires more effort to identify the main information contained in code comments. Pre-trained language model has shown promising results for solving software engineering tasks. In this paper, we propose a model for code comment classified using the recent pre-trained language model specialized for code-specific tasks (i.e., CodeT5). We introduce expert-predefined features to enhance the model's classification performance. Our evaluation on the official dataset shows that it outperforms the baseline by improving the precision (+65.9 %), recall (+147.3%) and the Fl-score (+112.5%) of the classification.}
   volume={},
   number={},
   pages={24-27},
   keywords={Computer languages;Codes;Conferences;Maintenance engineering;Task analysis;Software engineering;Pre-trained language model;code comment},
   doi={10.1109/NLBSE59153.2023.00013}}
 
+@inproceedings{10.1145/3611643.3616314,
+author = {Win, Hsu Myat and Wang, Haibo and Tan, Shin Hwei},
+title = {Towards Automated Detection of Unethical Behavior in Open-Source Software Projects},
+year = {2023},
+isbn = {9798400703270},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3611643.3616314},
+doi = {10.1145/3611643.3616314},
+abstract = {Given the rapid growth of Open-Source Software (OSS) projects, ethical considerations are becoming more important. Past studies focused on specific ethical issues (e.g., gender bias and fairness in OSS). There is little to no study on the different types of unethical behavior in OSS projects. We present the first study of unethical behavior in OSS projects from the stakeholders’ perspective. Our study of 316 GitHub issues provides a taxonomy of 15 types of unethical behavior guided by six ethical principles (e.g., autonomy). Examples of new unethical behavior include soft forking (copying a repository without forking) and self-promotion (promoting a repository without self-identifying as contributor to the repository). We also identify 18 types of software artifacts affected by the unethical behavior. The diverse types of unethical behavior identified in our study (1) call for attentions of developers and researchers when making contributions in GitHub, and (2) point to future research on automated detection of unethical behavior in OSS projects. From our study, we propose Etor, an approach that can automatically detect six types of unethical behavior by using ontological engineering and Semantic Web Rule Language (SWRL) rules to model GitHub attributes and software artifacts. Our evaluation on 195,621 GitHub issues (1,765 GitHub repositories) shows that Etor can automatically detect 548 unethical behavior with 74.8\% average true positive rate (up to 100\% true positive rate). This shows the feasibility of automated detection of unethical behavior in OSS projects.},
+booktitle = {Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+pages = {644–656},
+numpages = {13},
+keywords = {Ethics in Software Engineering, Open-source software projects},
+location = {San Francisco, CA, USA},
+series = {ESEC/FSE 2023}
+}
+
+
+@article{10.1145/3747289,
+author = {Wang, Haibo and Xu, Zhuolin and Zhang, Huaien and Tsantalis, Nikolaos and Tan, Shin Hwei},
+title = {Towards Understanding Refactoring Engine Bugs},
+year = {2026},
+issue_date = {May 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {35},
+number = {5},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3747289},
+doi = {10.1145/3747289},
+abstract = {Refactoring is a critical process in software development, aiming at improving the internal structure of code while preserving its external behavior. Refactoring engines are integral components of modern Integrated Development Environments (IDEs) and can automate or semi-automate this process to enhance code readability, reduce complexity, and improve the maintainability of software products. Like traditional software systems, refactoring engines can generate incorrect refactored programs, resulting in unexpected behaviors. In this article, we present the first systematic study of refactoring engine bugs by analyzing bugs arising in three popular refactoring engines (i.e., Eclipse, IntelliJ IDEA, and Netbeans). We analyzed these bugs according to their refactoring types, symptoms, root causes, and triggering conditions. We obtained 12 findings and provided a series of valuable guidelines for future work on refactoring bug detection and debugging. Furthermore, our transferability study revealed 134 new bugs in the latest version of those refactoring engines. Among the 22 bugs we submitted, 11 bugs are confirmed by their developers, and 7 of them have already been fixed.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = apr,
+articleno = {138},
+numpages = {55},
+keywords = {Refactoring Engine Bug, Refactoring, Empirical Study}
+}
+
+
+@INPROCEEDINGS{11052804,
+  author={Wang, Haibo and Xu, Zhuolin and Tan, Shin Hwei},
+  booktitle={2025 IEEE/ACM Second International Conference on AI Foundation Models and Software Engineering (Forge)},
+  title={Testing Refactoring Engine via Historical Bug Report driven LLM},
+  year={2025},
+  volume={},
+  number={},
+  pages={113-124},
+  keywords={Codes;Foundation models;Large language models;Computer bugs;Software systems;Complexity theory;Test pattern generators;Engines;Testing;Software engineering;Test generation;Refactoring;Refactoring engine;Bug detection},
+  doi={10.1109/Forge66646.2025.00020}}
+
+
+@article{10.1145/3715730,
+author = {Wang, Haibo and Xing, Zezhong and Sun, Chengnian and Wang, Zheng and Tan, Shin Hwei},
+title = {Towards Diverse Program Transformations for Program Simplification},
+year = {2025},
+issue_date = {July 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {FSE},
+url = {https://doi.org/10.1145/3715730},
+doi = {10.1145/3715730},
+abstract = {By reducing the number of lines of code, program simplification reduces code complexity, improving software maintainability and code comprehension. While several existing techniques can be used for automatic program simplification, there is no consensus on the effectiveness of these approaches. We present the first study on how real-world developers simplify programs in open-source software projects. By analyzing 382 pull requests from 296 projects, we summarize the types of program transformations used, the motivations behind simplifications, and the set of program transformations that have not been covered by existing refactoring types. As a result of our study, we submitted eight bug reports to a widely used refactoring detection tool, RefactoringMiner, where seven were fixed. Our study also identifies gaps in applying existing approaches for automating program simplification and outlines the criteria for designing automatic program simplification techniques. In light of these observations, we propose SimpT5, a tool to automatically produce simplified programs that are semantically equivalent programs with reduced lines of code. SimpT5 is trained on our collected dataset of 92,485 simplified programs with two heuristics: (1) modified line localization that encodes lines changed in simplified programs, and (2) checkers that measure the quality of generated programs. Experimental results show that SimpT5 outperforms prior approaches in automating developer-induced program simplification.},
+journal = {Proc. ACM Softw. Eng.},
+month = jun,
+articleno = {FSE015},
+numpages = {23},
+keywords = {Program Simplification, Program Transformation, Refactoring}
+}
+
+@INPROCEEDINGS{11334609,
+  author={Tan, Honghao and Wang, Haibo and Pressato, Diany and Xu, Yisen and Tan, Shin Hwei},
+  booktitle={2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  title={Coverage-Based Harmfulness Testing for LLM Code Transformation},
+  year={2025},
+  volume={},
+  number={},
+  pages={983-995},
+  keywords={Codes;Source coding;Large language models;Natural languages;Computer bugs;Mental health;Software;Robustness;Testing;Software engineering;large language models;code generation;harmfulness testing},
+  doi={10.1109/ASE63991.2025.00086}}
+
+
+@article{tan2026structured,
+  title={Structured Safety Auditing for Balancing Code Correctness and Content Safety in LLM-Generated Code},
+  author={Tan, Honghao and Wang, Haibo and Tan, Shin Hwei},
+  journal={arXiv preprint arXiv:2604.12088},
+  year={2026}
+}
+
+@article{tan2026ethics,
+  title={Ethics Testing: Proactive Identification of Generative AI System Harms},
+  author={Tan, Shin Hwei and Wang, Haibo and Li, Heng},
+  journal={arXiv preprint arXiv:2604.22089},
+  year={2026}
+}
