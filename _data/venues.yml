@@ -1,14 +1,14 @@
 "PLDI 2021":
   url: https://pldi21.sigplan.org/
-  color: "#009f06"
+  color: "#00369f"
 
 "NLBSE 2023":
   url: https://nlbse2023.github.io/
-  color: "#009f06"
+  color: "#00369f"
 
 "ESEC/FSE 2023":
   url: https://conf.researchr.org/home/fse-2023
-  color: "#009f06"
+  color: "#00369f"
 
 "TOSEM":
   url: https://dl.acm.org/journal/tosem
@@ -16,15 +16,15 @@
 
 "FORGE 2025":
   url: https://conf.researchr.org/home/forge-2025
-  color: "#009f06"
+  color: "#00369f"
 
 "FSE 2025":
   url: https://conf.researchr.org/home/fse-2025
-  color: "#009f06"
+  color: "#00369f"
 
 "ASE 2025":
   url: https://conf.researchr.org/home/ase-2025
-  color: "#009f06"
+  color: "#f92080"
 
 "arXiv":
   color: "#0076df"
