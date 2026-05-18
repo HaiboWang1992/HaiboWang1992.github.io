@@ -3,7 +3,7 @@ layout: about
 title: biography
 permalink: /
 #subtitle: <a href='#'>Concordia University</a>. haibo.wang@mail.concordia.ca
-subtitle: haibo.wang@mail.concordia.ca
+subtitle: haibo.wang@mail.concordia.ca | <a href='https://scholar.google.com/citations?user=BwpU6EIAAAAJ&hl=en'>Google Scholar</a>.
 
 profile:
   align: right
