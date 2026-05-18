@@ -1,21 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
-
 "PLDI 2021":
   url: https://pldi21.sigplan.org/
+  color: "#0076df"
 
 "NLBSE 2023":
   url: https://nlbse2023.github.io/
+  color: "#2698ba"
 
 "ESEC/FSE 2023":
   url: https://conf.researchr.org/home/fse-2023
+  color: "#00ab37"
 
 "TOSEM":
   url: https://dl.acm.org/journal/tosem
@@ -23,12 +16,16 @@
 
 "FORGE 2025":
   url: https://conf.researchr.org/home/forge-2025
+  color: "#b7d12a"
 
 "FSE 2025":
   url: https://conf.researchr.org/home/fse-2025
+  color: "#009f06"
 
 "ASE 2025":
   url: https://conf.researchr.org/home/ase-2025
+  color: "#ddffdd"
 
 "arXiv":
   url: https://arxiv.org/
+  color: "#828282"
