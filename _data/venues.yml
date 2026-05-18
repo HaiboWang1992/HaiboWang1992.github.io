@@ -13,3 +13,21 @@
 
 "NLBSE 2023":
   url: https://nlbse2023.github.io/
+
+"ESEC/FSE 2023":
+  url: https://conf.researchr.org/home/fse-2023
+
+"TOSEM":
+  url: https://dl.acm.org/journal/tosem
+
+"FORGE 2025":
+  url: https://conf.researchr.org/home/forge-2025
+
+"FSE 2025":
+  url: https://conf.researchr.org/home/fse-2025
+
+"ASE 2025":
+  url: https://conf.researchr.org/home/ase-2025
+
+"arXiv":
+  url: https://arxiv.org/
