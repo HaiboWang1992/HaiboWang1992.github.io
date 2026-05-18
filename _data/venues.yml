@@ -19,6 +19,7 @@
 
 "TOSEM":
   url: https://dl.acm.org/journal/tosem
+  color: "#00369f"
 
 "FORGE 2025":
   url: https://conf.researchr.org/home/forge-2025

@@ -1,119 +1,3 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
-}
-
 @inproceedings{10.1145/3453483.3454054,
 author = {Ye, Guixin and Tang, Zhanyong and Tan, Shin Hwei and Huang, Songfang and Fang, Dingyi and Sun, Xiaoyang and Bian, Lizhong and Wang, Haibo and Wang, Zheng},
 title = {Automated conformance testing for JavaScript engines via deep compiler fuzzing},
@@ -199,6 +83,7 @@ keywords = {Refactoring Engine Bug, Refactoring, Empirical Study}
   code = {https://github.com/HaiboWang1992/REBDetector},
   volume={},
   number={},
+  abstract = {Refactoring is the process of restructuring existing code without changing its external behavior while improving its internal structure. Refactoring engines are integral components of modern Integrated Development Environments (IDEs) and can automate or semi-automate this process to enhance code readability, reduce complexity, and improve the maintainability of software products. Similar to traditional software systems such as compilers, refactoring engines may also contain bugs that can lead to unexpected behaviors. In this paper, we propose a novel approach called RETester, a LLM-based framework for automated refactoring engine testing. Specifically, by using input program structure templates extracted from historical bug reports and input program characteristics that are error-prone, we design chain-of-thought (CoT) prompts to perform refactoring-preserving transformations. The generated variants are then tested on the latest version of refactoring engines using differential testing. We evaluate RETester on two most popular modern refactoring engines (i.e., Eclipse, and IntelliJ IDEA). It successfully revealed 18 previously unknown bugs in the latest version of those refactoring engines, seven of them have been confirmed by their developers, and three have been fixed.},
   abbr = {FORGE 2025},
   pages={113-124},
   keywords={Codes;Foundation models;Large language models;Computer bugs;Software systems;Complexity theory;Test pattern generators;Engines;Testing;Software engineering;Test generation;Refactoring;Refactoring engine;Bug detection},
@@ -233,6 +118,7 @@ keywords = {Program Simplification, Program Transformation, Refactoring}
   year={2025},
   volume={},
   number={},
+  abstract = {Harmful content embedded in program elements within source code may have detrimental impact on mental health of software developers, and promote harmful behavior. Our key insight is that software developers may introduce harmful content into source code via diverse semantic-preserving program transformations when using Code Large Language Models (Code LLMs). To analyze the space of program transformations that may be used to introduce harmful content into auto-generated code, we conduct a preliminary study that revealed 32 different types of transformations that can be used to introduce harmful content in source code. Based on our study, we propose CHT, a novel coverage-based harmfulness testing framework that automatically synthesizes prompts using a set of prompt templates injected with diverse harmful keywords to perform various types of transformations on a set of mined benign programs. Instead of checking if the content moderation has been bypassed as prior testing approaches, CHT performs output damage measurement to assess potential harm that can be incurred by the generated outputs (i.e., natural language explanation and modified code). By considering output damage, CHT revealed several problems in Code LLMs: (1) bugs in content moderation for code (Code LLMs produce the harmful code without providing any warning), (2) inadequacy in performing code-related task (e.g., Code LLMs may resort to explaining the given code instead of performing the instructed transformation task), and (3) lenient content moderation (gives warning but the modified code with harmful content is still produced). Our evaluations of CHT on four Code LLMs and gpt-4o-mini (general LLM) show that content moderation in Code LLMs is relatively easy to bypass where LLMs may generate harmful keywords embedded within identifier names or code comments without giving any warning (65.93% in our evaluation). To improve the robustness of content moderation in code-related tasks, we propose a two-phase approach that checks if the prompt contains any harmful content before generating any output. Our evaluation shows that our proposed approach improves the content moderation of Code LLM by 483.76%.},
   code = {https://github.com/honghao-tan/CHT},
   pages={983-995},
   abbr = {ASE 2025},
@@ -245,12 +131,14 @@ keywords = {Program Simplification, Program Transformation, Refactoring}
   author={Tan, Honghao and Wang, Haibo and Tan, Shin Hwei},
   journal={arXiv preprint arXiv:2604.12088},
   abbr = {arXiv},
-  arxiv = {2604.22089},
+  arxiv = {2604.12088},
+  abstract = {Large language models (LLMs) for code generation are typically evaluated on functional correctness alone, overlooking whether generated code propagates harmful content embedded in the prompt. Prior work has shown that most Code LLMs reproduce offensive identifiers from injected renaming instructions without warning, yet existing approaches focus on detecting harmful content, neglecting functional correctness. Grounded in the Theory of Dual Channel Constraints (which states that code is a dual-channel medium combining an algorithmic (AL) channel for machine execution and a natural language (NL) channel for human communication, creating a unique safety-utility trade-off where a model must balance functional execution with responsible communication), we propose NLSafety-Utility Duality Score (SUDS), a metric that unifies code utility, safety adherence, and warning awareness into a single score across 12 ranked response scenarios, and Dual Reasoning (DR), a structured inference-time technique that requires an explicit safety audit and task-grounded code review before code generation. Evaluated on five LLMs across two benchmarks augmented with harmful keyword injections (820 and 2,135 samples), DR consistently achieves the highest SUDS across all models, improving mean SUDS by 1.32× to 3.42× over the baseline, while chain-of-thought prompting yields negligible safety gains and a safety-aware prompt provides only partial improvement. Further analysis reveals that DR's effectiveness scales with model capacity, that the one-shot exemplar primarily stabilizes output format for smaller models, and that structured reasoning cannot compensate for models with limited safety vocabularies.},
   year={2026}
 }
 
 @article{tan2026ethics,
   title={Ethics Testing: Proactive Identification of Generative AI System Harms},
+  abstract = {Generative Artificial Intelligence (GAI) systems that can automatically generate content in the form of source code or other contents (e.g., images) has seen increasing popularity due to the emergence of tools such as ChatGPT which rely on Large Language Models (LLMs). Misuse of the automatically generated content can incur serious consequences due to potential harms in the generated content. Despite the importance of ensuring the quality of automatically generated content, there is little to no approach that can systematically generate tests for identifying software harms in the content generated by these GAI systems. In this article, we introduce the novel concept of ethics testing which aims to systematically generate tests for identifying software harms. Different from existing testing methodologies (e.g., fairness testing that aims to identifying software discrimination), ethics testing aims to systematically detect software harms that could be induced due to unethical behavior (e.g., harmful behavior or behavior that violates intellectual property rights) in automatically generated content. We introduced the concept of ethics testing, discussed the challenges therewithin, and conducted five case studies to show how ethics testing can be performed for generative AI systems.},
   author={Tan, Shin Hwei and Wang, Haibo and Li, Heng},
   journal={arXiv preprint arXiv:2604.22089},
   abbr = {arXiv},
