@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -446,8 +439,8 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-accepted-at-tosem",
           title: 'One paper accepted at TOSEM.',
           description: "",
-          section: "News",},{id: "news-one-paper-accepted-at-ase-2025",
-          title: 'One paper accepted at ASE 2025.',
+          section: "News",},{id: "news-one-paper-accepted-at-ase-2025-congratulations-to-honghao-bell",
+          title: 'One paper accepted at ASE 2025. Congratulations to Honghao :bell: !',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
