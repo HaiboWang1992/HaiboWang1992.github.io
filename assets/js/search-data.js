@@ -49,7 +49,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-reliable-software-evolution-and-transformation",
           title: 'Reliable software evolution and transformation',
-          description: "Reliable software evolution and transformation",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
