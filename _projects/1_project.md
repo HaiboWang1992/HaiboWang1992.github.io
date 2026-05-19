@@ -7,138 +7,139 @@ importance: 1
 category: work
 related_publications: true
 ---
+I study the reliability of software transformation tools, especially refactoring engines. My work investigates refactoring engine bugs in widely used IDEs such as Eclipse, IntelliJ IDEA, and NetBeans, and develops techniques for testing refactoring engines using historical bug reports and LLM-generated program variants. More broadly, I am interested in behavior-preserving program transformations, program simplification, refactoring precondition inference, and repository-scale refactoring support.
 
-To be written.
+<!---
+Every project has a beautiful feature showcase page.
 
-[//]: # (Every project has a beautiful feature showcase page.)
+It's easy to include images in a flexible 3-column grid format.
 
-[//]: # (It's easy to include images in a flexible 3-column grid format.)
+Make your photos 1/3, 2/3, or full width.
 
-[//]: # (Make your photos 1/3, 2/3, or full width.)
 
-[//]: # ()
-[//]: # (To give your project a background in the portfolio page, just add the img tag to the front matter like so:)
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-[//]: # ()
-[//]: # (    ---)
 
-[//]: # (    layout: page)
+    ---
 
-[//]: # (    title: project)
+    layout: page
 
-[//]: # (    description: a project with a background image)
+    title: project
 
-[//]: # (    img: /assets/img/12.jpg)
+    description: a project with a background image
 
-[//]: # (    ---)
+    img: /assets/img/12.jpg
 
-[//]: # ()
-[//]: # (<div class="row">)
+    ---
 
-[//]: # (    <div class="col-sm mt-3 mt-md-0">)
 
-[//]: # (        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %})
+<div class="row">
 
-[//]: # (    </div>)
+    <div class="col-sm mt-3 mt-md-0">
 
-[//]: # (    <div class="col-sm mt-3 mt-md-0">)
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-[//]: # (        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %})
+    </div>
 
-[//]: # (    </div>)
+    <div class="col-sm mt-3 mt-md-0">
 
-[//]: # (    <div class="col-sm mt-3 mt-md-0">)
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-[//]: # (        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %})
+    </div>
 
-[//]: # (    </div>)
+    <div class="col-sm mt-3 mt-md-0">
 
-[//]: # (</div>)
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-[//]: # (<div class="caption">)
+    </div>
 
-[//]: # (    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.)
+</div>
 
-[//]: # (</div>)
+<div class="caption">
 
-[//]: # (<div class="row">)
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 
-[//]: # (    <div class="col-sm mt-3 mt-md-0">)
+</div>
 
-[//]: # (        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %})
+<div class="row">
 
-[//]: # (    </div>)
+    <div class="col-sm mt-3 mt-md-0">
 
-[//]: # (</div>)
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-[//]: # (<div class="caption">)
+    </div>
 
-[//]: # (    This image can also have a caption. It's like magic.)
+</div>
 
-[//]: # (</div>)
+<div class="caption">
 
-[//]: # ()
-[//]: # (You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.)
+    This image can also have a caption. It's like magic.
 
-[//]: # (Say you wanted to write a bit about your project before you posted the rest of the images.)
+</div>
 
-[//]: # (You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.)
 
-[//]: # ()
-[//]: # (<div class="row justify-content-sm-center">)
+You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 
-[//]: # (    <div class="col-sm-8 mt-3 mt-md-0">)
+Say you wanted to write a bit about your project before you posted the rest of the images.
 
-[//]: # (        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %})
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-[//]: # (    </div>)
 
-[//]: # (    <div class="col-sm-4 mt-3 mt-md-0">)
+<div class="row justify-content-sm-center">
 
-[//]: # (        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %})
+    <div class="col-sm-8 mt-3 mt-md-0">
 
-[//]: # (    </div>)
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-[//]: # (</div>)
+    </div>
 
-[//]: # (<div class="caption">)
+    <div class="col-sm-4 mt-3 mt-md-0">
 
-[//]: # (    You can also have artistically styled 2/3 + 1/3 images, like these.)
+        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
 
-[//]: # (</div>)
+    </div>
 
-[//]: # ()
-[//]: # (The code is simple.)
+</div>
 
-[//]: # (Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` &#40;read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system&#41;.)
+<div class="caption">
 
-[//]: # (To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.)
+    You can also have artistically styled 2/3 + 1/3 images, like these.
 
-[//]: # (Here's the code for the last row of images above:)
+</div>
 
-[//]: # ()
-[//]: # ({% raw %})
 
-[//]: # ()
-[//]: # (```html)
+The code is simple.
 
-[//]: # (<div class="row justify-content-sm-center">)
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 
-[//]: # (  <div class="col-sm-8 mt-3 mt-md-0">)
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
 
-[//]: # (    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %})
+Here's the code for the last row of images above:
 
-[//]: # (  </div>)
 
-[//]: # (  <div class="col-sm-4 mt-3 mt-md-0">)
+{% raw %}
 
-[//]: # (    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %})
 
-[//]: # (  </div>)
+```html
 
-[//]: # (</div>)
+<div class="row justify-content-sm-center">
 
-[//]: # (```)
+  <div class="col-sm-8 mt-3 mt-md-0">
 
-[//]: # ()
-[//]: # ({% endraw %})
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+  </div>
+
+</div>
+
+```
+
+
+{% endraw %}
+--->
