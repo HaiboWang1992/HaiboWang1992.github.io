@@ -23,19 +23,19 @@ cv:
 
   sections:
 
-    Research Interests:
+    Interests:
       - name: Software Engineering
         icon: fa-solid fa-tag
         keywords: "Automated Software Testing; Refactoring; AI for SE; Green SE; Human Aspects of SE"
 
     Education:
       - institution: Concordia University
-        location: Montréal, Canada
+        location: Canada
 #        url: https://www.uzh.ch/
         area: Computer Science
-        studyType: PhD
-        start_date: 2023.09
-        end_date: 2027.01
+        studyType: Ph.D. candidate
+        start_date: 2023
+        end_date: 2027
 #        score: ""
 #        courses: "Theory of Relativity"
 #        highlights:
@@ -43,41 +43,41 @@ cv:
 #          - Description 2.
 
       - institution: Southern University of Science and Technology
-        location: Shenzhen, China
+        location: China
         area: Computer Science
-        studyType: PhD
-        start_date: 2021.11
-        end_date: 2023.08
+        studyType: Ph.D. candidate
+        start_date: 2021
+        end_date: 2023
         highlights:
           - Joint Ph.D. Program of Southern University of Science and Technology, and University of Leeds.
           - Relocated to Concordia University.
 
       - institution: University of Leeds
-        location: Leeds, United Kingdom
+        location: United Kingdom
         area: Computer Science
-        studyType: PhD
-        start_date: 2020.09
-        end_date: 2021.10
+        studyType: Ph.D. candidate
+        start_date: 2020
+        end_date: 2021
         highlights:
           - Joint Ph.D. Program of Southern University of Science and Technology, and University of Leeds.
           - Relocated to Concordia University.
 
       - institution: Beijing University of Posts and Telecommunications
-        location: Beijing, China
+        location: China
         area: Computer Technology
         studyType: Master
-        start_date: 2016.09
-        end_date: 2019.06
+        start_date: 2016
+        end_date: 2019
 #        highlights:
 #          - Joint Ph.D. Program of Southern University of Science and Technology and University of Leeds.
 #          - Relocated to Concordia University.
 
       - institution: Southern University of Science and Technology
-        location: Shenzhen, China
+        location: China
         area: Software Engineering
         studyType: Bachelor
-        start_date: 2011.09
-        end_date: 2015.06
+        start_date: 2011
+        end_date: 2015
 #        highlights:
 #          - Joint Ph.D. Program of Southern University of Science and Technology and University of Leeds.
 #          - Relocated to Concordia University.
@@ -85,9 +85,9 @@ cv:
     Experience:
       - company: Software R & D center of Agricultural Bank of China
         position: Software Development Engineer
-        location: Tianjin, China
-        start_date: 2019.07
-        end_date: 2020.08
+        location: China
+        start_date: 2019
+        end_date: 2020
         summary: Full Stack Software Development Engineer for Customer Service System.
 #        highlights:
 #          - Relativity
@@ -95,9 +95,9 @@ cv:
 
       - company: Ant Group Co., Ltd. of Alibaba
         position: Software Development Intern
-        location: Hangzhou, China
-        start_date: 2018.06
-        end_date: 2018.09
+        location: China
+        start_date: 2018
+        end_date: 2018
 #        highlights:
 #          - Description 1.
 #          - Description 2.
@@ -120,69 +120,69 @@ cv:
 #        start_date: 1909
 #        end_date: 1911
 
-    Publications:
-      - title: Ethics Testing, Proactive Identification of Generative AI System Harms
-        authors:
-          - Tan, Shin Hwei, Haibo Wang, and Heng Li
-        publisher: Arxiv
-        releaseDate: 2026-05-01
-        url: https://arxiv.org/abs/2604.22089
-
-      - title: Structured Safety Auditing for Balancing Code Correctness and Content Safety in LLM-Generated Code
-        authors:
-          - Tan, Honghao, Haibo Wang, and Shin Hwei Tan
-        publisher: Arxiv
-        releaseDate: 2026-04-01
-        url: https://arxiv.org/abs/2604.12088
-
-      - title: Coverage-Based Harmfulness Testing for LLM Code Transformation
-        authors:
-          - Tan, Honghao, Haibo Wang, Diany Pressato, Yisen Xu, and Shin Hwei Tan
-        publisher: ASE 2025
-        releaseDate: 2025-08-01
-        url: https://ieeexplore.ieee.org/abstract/document/11334609
-
-      - title: Testing Refactoring Engine via Historical Bug Report driven LLM
-        authors:
-          - Wang, Haibo, Zhuolin Xu, and Shin Hwei Tan
-        publisher: FORGE 2025
-        releaseDate: 2025-01-16
-        url: https://ieeexplore.ieee.org/abstract/document/11052804
-
-      - title: Towards Diverse Program Transformations for Program Simplification
-        authors:
-          - Wang, Haibo, Zezhong Xing, Chengnian Sun, Zheng Wang, and Shin Hwei Tan
-        publisher: FSE 2025
-        releaseDate: 2025-01-15
-        url: https://dl.acm.org/doi/abs/10.1145/3715730
-
-      - title: Towards automated detection of unethical behavior in open-source software projects
-        authors:
-          - Win, Hsu Myat, Haibo Wang, and Shin Hwei Tan
-        publisher: ESEC/FSE 2023
-        releaseDate: 2023-12-23
-        url: https://dl.acm.org/doi/abs/10.1145/3611643.3616314
-
-      - title: Automated conformance testing for JavaScript engines via deep compiler fuzzing
-        authors:
-          - Ye, Guixin, Zhanyong Tang, Shin Hwei Tan, Songfang Huang, Dingyi Fang, Xiaoyang Sun, Lizhong Bian, Haibo Wang, and Zheng Wang
-        publisher: PLDI 2021
-        releaseDate: 2021-06-18
-        url: https://dl.acm.org/doi/abs/10.1145/3453483.3454054
-
-      - title: Towards understanding refactoring engine bugs
-        authors:
-          - Wang, Haibo, Zhuolin Xu, Huaien Zhang, Nikolaos Tsantalis, and Shin Hwei Tan
-        publisher: TOSEM
-        releaseDate: 2025-05-10
-        url: https://dl.acm.org/doi/full/10.1145/3747289
-
-      - title: Classifying code comments via pre-trained programming language model
-        authors:
-          - Li, Ying, Haibo Wang, Huaien Zhang, and Shin Hwei Tan
-        publisher: NLBSE 2023
-        releaseDate: 2023-05-20
-        url: https://ieeexplore.ieee.org/abstract/document/10189150
+#    Publications:
+#      - title: Ethics Testing, Proactive Identification of Generative AI System Harms
+#        authors:
+#          - Tan, Shin Hwei, Haibo Wang, and Heng Li
+#        publisher: Arxiv
+#        releaseDate: 2026-05-01
+#        url: https://arxiv.org/abs/2604.22089
+#
+#      - title: Structured Safety Auditing for Balancing Code Correctness and Content Safety in LLM-Generated Code
+#        authors:
+#          - Tan, Honghao, Haibo Wang, and Shin Hwei Tan
+#        publisher: Arxiv
+#        releaseDate: 2026-04-01
+#        url: https://arxiv.org/abs/2604.12088
+#
+#      - title: Coverage-Based Harmfulness Testing for LLM Code Transformation
+#        authors:
+#          - Tan, Honghao, Haibo Wang, Diany Pressato, Yisen Xu, and Shin Hwei Tan
+#        publisher: ASE 2025
+#        releaseDate: 2025-08-01
+#        url: https://ieeexplore.ieee.org/abstract/document/11334609
+#
+#      - title: Testing Refactoring Engine via Historical Bug Report driven LLM
+#        authors:
+#          - Wang, Haibo, Zhuolin Xu, and Shin Hwei Tan
+#        publisher: FORGE 2025
+#        releaseDate: 2025-01-16
+#        url: https://ieeexplore.ieee.org/abstract/document/11052804
+#
+#      - title: Towards Diverse Program Transformations for Program Simplification
+#        authors:
+#          - Wang, Haibo, Zezhong Xing, Chengnian Sun, Zheng Wang, and Shin Hwei Tan
+#        publisher: FSE 2025
+#        releaseDate: 2025-01-15
+#        url: https://dl.acm.org/doi/abs/10.1145/3715730
+#
+#      - title: Towards automated detection of unethical behavior in open-source software projects
+#        authors:
+#          - Win, Hsu Myat, Haibo Wang, and Shin Hwei Tan
+#        publisher: ESEC/FSE 2023
+#        releaseDate: 2023-12-23
+#        url: https://dl.acm.org/doi/abs/10.1145/3611643.3616314
+#
+#      - title: Automated conformance testing for JavaScript engines via deep compiler fuzzing
+#        authors:
+#          - Ye, Guixin, Zhanyong Tang, Shin Hwei Tan, Songfang Huang, Dingyi Fang, Xiaoyang Sun, Lizhong Bian, Haibo Wang, and Zheng Wang
+#        publisher: PLDI 2021
+#        releaseDate: 2021-06-18
+#        url: https://dl.acm.org/doi/abs/10.1145/3453483.3454054
+#
+#      - title: Towards understanding refactoring engine bugs
+#        authors:
+#          - Wang, Haibo, Zhuolin Xu, Huaien Zhang, Nikolaos Tsantalis, and Shin Hwei Tan
+#        publisher: TOSEM
+#        releaseDate: 2025-05-10
+#        url: https://dl.acm.org/doi/full/10.1145/3747289
+#
+#      - title: Classifying code comments via pre-trained programming language model
+#        authors:
+#          - Li, Ying, Haibo Wang, Huaien Zhang, and Shin Hwei Tan
+#        publisher: NLBSE 2023
+#        releaseDate: 2023-05-20
+#        url: https://ieeexplore.ieee.org/abstract/document/10189150
 
     Awards:
       - title: ACM SIGSOFT CAPS Award
