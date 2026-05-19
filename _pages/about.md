@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
 #subtitle: <a href='#'>Concordia University</a>. haibo.wang@mail.concordia.ca
 subtitle: <a href='https://scholar.google.com/citations?user=BwpU6EIAAAAJ&hl=en'>Google Scholar</a> | haibo.wang@mail.concordia.ca
