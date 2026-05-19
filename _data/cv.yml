@@ -4,7 +4,7 @@ cv:
   email: haibo.wang@mail.concordia.ca
   location: Concordia University, Montréal, Canada
   image: ""
-  research interests: My research lies broadly in software engineering, with a focus on automated software testing, software refactoring, AI for software engineering, green and sustainable software engineering, and human aspects of software engineering.
+  summary: My research lies broadly in software engineering, with a focus on automated software testing, software refactoring, AI for software engineering, green and sustainable software engineering, and human aspects of software engineering.
 
 #  social_networks:
 #    - network: X
@@ -23,10 +23,10 @@ cv:
 
   sections:
 
-    Interests:
-      - name: Software Engineering
-        icon: fa-solid fa-tag
-        keywords: "Automated Software Testing; Refactoring; AI for SE; Green SE; Human Aspects of SE"
+#    Interests:
+#      - name: Software Engineering
+#        icon: fa-solid fa-tag
+#        keywords: "Automated Software Testing; Refactoring; AI for SE; Green SE; Human Aspects of SE"
 
     Education:
       - institution: Concordia University
