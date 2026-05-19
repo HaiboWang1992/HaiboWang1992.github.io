@@ -13,58 +13,58 @@ horizontal: false
 <!-- pages/projects.md -->
 <div class="projects">
 
-[//]: # ({% if site.enable_project_categories and page.display_categories %})
+{% if site.enable_project_categories and page.display_categories %}
 
-[//]: # (  <!-- Display categorized projects -->)
+  <!-- Display categorized projects -->
 
-[//]: # (  {% for category in page.display_categories %})
+  {% for category in page.display_categories %}
 
-[//]: # (  <a id="{{ category }}" href=".#{{ category }}">)
+  <a id="{{ category }}" href=".#{{ category }}">
 
-[//]: # (    <h2 class="category">{{ category }}</h2>)
+    <h2 class="category">{{ category }}</h2>
 
-[//]: # (  </a>)
+  </a>
 
-[//]: # (  {% assign categorized_projects = site.projects | where: "category", category %})
+  {% assign categorized_projects = site.projects | where: "category", category %}
 
-[//]: # (  {% assign sorted_projects = categorized_projects | sort: "importance" %})
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
 
-[//]: # (  <!-- Generate cards for each project -->)
+  <!-- Generate cards for each project -->
 
-[//]: # (  {% if page.horizontal %})
+  {% if page.horizontal %}
 
-[//]: # (  <div class="container">)
+  <div class="container">
 
-[//]: # (    <div class="row row-cols-1 row-cols-md-2">)
+    <div class="row row-cols-1 row-cols-md-2">
 
-[//]: # (    {% for project in sorted_projects %})
+    {% for project in sorted_projects %}
 
-[//]: # (      {% include projects_horizontal.liquid %})
+      {% include projects_horizontal.liquid %}
 
-[//]: # (    {% endfor %})
+    {% endfor %}
 
-[//]: # (    </div>)
+    </div>
 
-[//]: # (  </div>)
+  </div>
 
-[//]: # (  {% else %})
+  {% else %}
 
-[//]: # (  <div class="row row-cols-1 row-cols-md-3">)
+  <div class="row row-cols-1 row-cols-md-3">
 
-[//]: # (    {% for project in sorted_projects %})
+    {% for project in sorted_projects %}
 
-[//]: # (      {% include projects.liquid %})
+      {% include projects.liquid %}
 
-[//]: # (    {% endfor %})
+    {% endfor %}
 
-[//]: # (  </div>)
+  </div>
 
-[//]: # (  {% endif %})
+  {% endif %}
 
-[//]: # (  {% endfor %})
+  {% endfor %}
 
-[//]: # ()
-[//]: # ({% else %})
+
+{% else %}
 
 <!-- Display projects without categories -->
 
