@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted at FSE 2025.
+Our paper working on program simplification was accepted at FSE 2025!
