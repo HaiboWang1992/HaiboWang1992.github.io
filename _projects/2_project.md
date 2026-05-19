@@ -2,7 +2,7 @@
 layout: page
 title: Trustworthy AI-enabled software development
 #description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+img: assets/img/trust_ai.png
 importance: 2
 category: work
 giscus_comments: true
