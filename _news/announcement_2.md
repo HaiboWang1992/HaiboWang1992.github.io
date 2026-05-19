@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper working on LLM-based refactoring engine bug detection was accepted at FORGE 2025!
+Our paper working on LLM-based refactoring engine bug detection was accepted to FORGE 2025!
