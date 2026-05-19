@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper working on code harmfulness testing for LLMs was accepted to ASE 2025. Congratulations to honghao :tada: !
+Our paper working on code harmfulness testing for LLM was accepted to ASE 2025. Congratulations to honghao :tada: !
