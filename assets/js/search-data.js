@@ -47,9 +47,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-working-on-code-harmfulness-testing-for-llm-was-accepted-to-ase-2025-congratulations-to-honghao-tada",
           title: 'Our paper working on code harmfulness testing for LLM was accepted to ASE...',
           description: "",
-          section: "News",},{id: "projects-reliable-software-evolution-and-transformation",
-          title: 'Reliable software evolution and transformation',
-          description: "",
+          section: "News",},{id: "projects-1-project",
+          title: '1_project',
+          description: "Reliable software evolution and transformation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
