@@ -2,7 +2,7 @@
 layout: page
 title: Reliable software evolution and transformation
 #description: Reliable software evolution and transformation
-img: assets/img/12.jpg
+img: assets/img/reliable_transformation.png
 importance: 1
 category: work
 related_publications: true
