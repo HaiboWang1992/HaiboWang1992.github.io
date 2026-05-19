@@ -4,7 +4,7 @@ cv:
   email: haibo.wang@mail.concordia.ca
   location: Concordia University, Montréal, Canada
   image: ""
-#  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  research interests: My research lies broadly in software engineering, with a focus on automated software testing, software refactoring, AI for software engineering, green and sustainable software engineering, and human aspects of software engineering.
 
 #  social_networks:
 #    - network: X
@@ -31,16 +31,10 @@ cv:
     Education:
       - institution: Concordia University
         location: Canada
-#        url: https://www.uzh.ch/
         area: Computer Science
         studyType: Ph.D. candidate
         start_date: 2023
         end_date: 2027
-#        score: ""
-#        courses: "Theory of Relativity"
-#        highlights:
-#          - Description 1.
-#          - Description 2.
 
       - institution: Southern University of Science and Technology
         location: China
@@ -65,22 +59,16 @@ cv:
       - institution: Beijing University of Posts and Telecommunications
         location: China
         area: Computer Technology
-        studyType: Master
+        studyType: M.Sc.
         start_date: 2016
         end_date: 2019
-#        highlights:
-#          - Joint Ph.D. Program of Southern University of Science and Technology and University of Leeds.
-#          - Relocated to Concordia University.
 
       - institution: Southern University of Science and Technology
         location: China
         area: Software Engineering
-        studyType: Bachelor
+        studyType: B.Sc.
         start_date: 2011
         end_date: 2015
-#        highlights:
-#          - Joint Ph.D. Program of Southern University of Science and Technology and University of Leeds.
-#          - Relocated to Concordia University.
 
     Experience:
       - company: Software R & D center of Agricultural Bank of China
@@ -89,18 +77,46 @@ cv:
         start_date: 2019
         end_date: 2020
         summary: Full Stack Software Development Engineer for Customer Service System.
-#        highlights:
-#          - Relativity
-#          - Description 2.
 
       - company: Ant Group Co., Ltd. of Alibaba
         position: Software Development Intern
         location: China
         start_date: 2018
         end_date: 2018
-#        highlights:
-#          - Description 1.
-#          - Description 2.
+
+
+    Awards:
+      - title: ACM SIGSOFT CAPS Award
+        date: 2025.04
+        awarder: ACM SIGSOFT
+        summary: Travel award, $1,250 CAD.
+
+      - title: Concordia University SGS Conference Award
+        date: 2025.01
+        awarder: Concordia University
+        summary: Travel award, $1,750 CAD.
+
+      - title: Concordia University International Tuition Award of Excellence
+        date: 2023.09
+        awarder: Concordia University
+        summary: $44,893 CAD.
+
+      - title: Master Scholarship
+        date: 2016.09
+        awarder: Beijing University of Posts and Telecommunications
+        summary: $1,563 CAD.
+
+      - title: Science and Technology Innovation Scholarship
+        date: 2012.06
+        awarder: China University of Petroleum
+        summary: $1,172 CAD.
+
+      - title: Runner-up Award
+        date: 2023.05
+        awarder: 2023 Natural Language-Based Software Engineering Tool Competition
+        summary: Runner-up award for NLBSE 2023.
+
+
 
 #      - company: Kaiser Wilhelm Institute for Physics
 #        position: Director
@@ -184,54 +200,20 @@ cv:
 #        releaseDate: 2023-05-20
 #        url: https://ieeexplore.ieee.org/abstract/document/10189150
 
-    Awards:
-      - title: ACM SIGSOFT CAPS Award
-#        authors:
-#          - "Royal Swedish Academy of Sciences"
-        date: 2025.04
-        awarder: ACM SIGSOFT
-#        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: Travel award, $1,250 CAD.
-
-      - title: Concordia University SGS Conference Award
-        date: 2025.01
-        awarder: Concordia University
-        summary: Travel award, $1,750 CAD.
-
-      - title: Concordia University International Tuition Award of Excellence
-        date: 2023.09
-        awarder: Concordia University
-        summary: $44,893 CAD.
-
-      - title: Master Scholarship
-        date: 2016.09
-        awarder: Beijing University of Posts and Telecommunications
-        summary: $1,563 CAD.
-
-      - title: Science and Technology Innovation Scholarship
-        date: 2012.06
-        awarder: China University of Petroleum
-        summary: $1,172 CAD.
-
-      - title: Runner-up Award
-        date: 2023.05
-        awarder: 2023 Natural Language-Based Software Engineering Tool Competition
-        summary: Runner-up award for NLBSE 2023.
-
-    Volunteer:
-      - company: FSE 2025
-        position: Student volunteer
-        location: Trondheim, Norway
-        start_date: 2025-06-23
-        end_date: 2025-06-26
-        summary: Work at reception desk.
-
-      - company: ICSE 2025
-        position: Student volunteer
-        location: Ottawa, Canada
-        start_date: 2025-04-27
-        end_date: 2025-05-03
-        summary: Manage poster presentation, coordinate slides presentation and banquet.
+#    Volunteer:
+#      - company: FSE 2025
+#        position: Student volunteer
+#        location: Trondheim, Norway
+#        start_date: 2025-06-23
+#        end_date: 2025-06-26
+#        summary: Work at reception desk.
+#
+#      - company: ICSE 2025
+#        position: Student volunteer
+#        location: Ottawa, Canada
+#        start_date: 2025-04-27
+#        end_date: 2025-05-03
+#        summary: Manage poster presentation, coordinate slides presentation and banquet.
 
 
 #    Skills:
